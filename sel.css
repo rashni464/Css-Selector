@@ -1,0 +1,66 @@
+#header
+{
+ height: 150px;
+ 
+ 
+}
+span
+{
+    font-size: 80px;
+    color: blue;
+    
+}
+.usr
+{
+    color: brown;
+    font-size: 20px;
+
+}
+
+
+.btn
+{
+    color: white;
+    text-align: center;
+    background-color:blue;
+
+}
+
+
+.name
+{
+    color:blueviolet;
+    font-size: 20px;
+}
+
+
+.header
+{
+    font-size: 20px;
+    font-style: italic;
+    color: blue;
+    
+}
+
+
+ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  ol li:before {
+    color: #e75204;
+    content: counter(list) ".";
+    left: -42px;
+    position: absolute;
+    text-align: right;
+    width: 36px;
+  }
+  .foot
+  {
+      font-size: 30px;
+      color: #e75204;
+  }
+  
+  
